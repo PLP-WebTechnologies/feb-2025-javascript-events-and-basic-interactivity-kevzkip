@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive JavaScript Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Event Handling Section -->
+    <h2>Event Handling 🎈</h2>
+    <button id="clickButton">Click Me!</button>
+    <div id="hoverElement" class="hover-box">Hover Over!</div>
+    <input type="text" id="keypressInput" placeholder="Type something...">
+    <p id="keypressOutput"></p>
+
+    <h2>Interactive Elements 🎮</h2>
+    <button id="changeButton">Change Text or Color</button>
+    <div class="gallery">
+      <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Image 1">
+      <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Image 2">
+      <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Image 3">
+      <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Image 4">
+    </div>
+
+    <h2>Form Validation 📋✅</h2>
+    <form id="myForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+      <span id="username-feedback"></span>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
